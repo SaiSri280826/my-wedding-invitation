@@ -1738,9 +1738,10 @@ select.form-input {
         gap:12px;
     }
 
-    .couple-name{
-        font-size:3rem;
-        line-height:1.15;
-    }
+   .couple-name{
+    font-size:2.5rem;
+    line-height:1.1;
+    white-space:nowrap;
+}
 
 }
