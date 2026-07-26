@@ -472,7 +472,7 @@ margin:3.5rem 0 5rem;
 
 .couple-name{
 
-font-family:'Great Vibes',cursive;
+font-family:'Parisienne',cursive;
 font-size:5.3rem;
 font-weight:400;
 color:#62449C;
@@ -1722,6 +1722,8 @@ select.form-input {
 /* ===== Mobile Improvements ===== */
 @media (max-width:768px){
 
+    @media (max-width:768px){
+
     .invitation-card{
         padding:2rem 1.25rem;
     }
@@ -1731,16 +1733,22 @@ select.form-input {
         letter-spacing:2px;
     }
 
+    .countdown-wrapper{
+        grid-template-columns:repeat(2,1fr);
+        gap:12px;
+    }
+
     .couple-name{
-        font-size:3.5rem;
+        font-size:4.2rem;
+        line-height:1.15;
     }
 
-    .ganesha-img{
-        width:220px;
-    }
+}
+@media (max-width:768px){
 
-    .story-img-wrapper{
-        outline-offset:3px;
+    .countdown-wrapper{
+        grid-template-columns:repeat(2,1fr);
+        gap:12px;
     }
 
 }
