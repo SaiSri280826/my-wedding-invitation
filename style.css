@@ -491,7 +491,7 @@ text-shadow:none;
 .couple-name.bride {
     color: var(--plum-deep);
     text-shadow: 0 2px 6px rgba(92, 58, 115, 0.2);
-    transform: translateX(-18px);
+    transform: none;
 }
 
 .couple-name.groom {
