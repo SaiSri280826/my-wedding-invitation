@@ -613,6 +613,18 @@ margin:.8rem 0;
     letter-spacing: 2px;
     color: var(--sage-green-dark);
 }
+/* ==========================================================================
+   6b. Dinner Section
+   ========================================================================== */
+#dinner-section {
+    padding-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    #dinner-section {
+        padding-top: 1.5rem;
+    }
+}
 
 /* ==========================================================================
    4. The Couple (Bride & Groom cards)
@@ -1553,15 +1565,19 @@ select.form-input {
         height: 200px;
     }
     
-    .countdown-wrapper {
+    .-wrapper {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
-    }
-    
+    }    
     .countdown-value {
         font-size: 2rem;
     }
-    
+    #venue-section {
+        padding-bottom: 1.5rem;
+    }
+    #dinner-section {
+        padding-top: 1.5rem;
+    }   
     .timeline-container::before {
         left: 20px;
     }
