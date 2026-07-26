@@ -1549,8 +1549,9 @@ select.form-input {
     }
     
     .couple-name {
-        font-size: 2.2rem;
-    }
+    font-size: 3rem;
+    line-height: 1.15;
+}
     
     .ampersand {
         font-size: 3rem;
@@ -1566,10 +1567,10 @@ select.form-input {
         height: 200px;
     }
     
-    .-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }    
+   .countdown-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}   
     .countdown-value {
         font-size: 2rem;
     }
@@ -1718,11 +1719,9 @@ select.form-input {
     height: auto;
   }
 
-}
+
 /* ===== Mobile Improvements ===== */
 @media (max-width:768px){
-
-    @media (max-width:768px){
 
     .invitation-card{
         padding:2rem 1.25rem;
@@ -1739,16 +1738,8 @@ select.form-input {
     }
 
     .couple-name{
-        font-size:4.2rem;
+        font-size:3rem;
         line-height:1.15;
-    }
-
-}
-@media (max-width:768px){
-
-    .countdown-wrapper{
-        grid-template-columns:repeat(2,1fr);
-        gap:12px;
     }
 
 }
