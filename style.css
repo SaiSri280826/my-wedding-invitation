@@ -517,7 +517,7 @@ font-size:5.5rem;
 font-weight:400;
 color:#86A88F;
 text-shadow:none;
-margin:0.35rem 0 0.15rem 0;
+margin:0.3rem 0;
 line-height:1;
 
 }
@@ -1550,12 +1550,6 @@ select.form-input {
         margin: 1.5rem 0;
     }
     
-   .couple-name {
-    font-size: 2.5rem;
-    line-height: 1.1;
-    white-space: nowrap;
-}
-    
     .ampersand {
         font-size: 3rem;
     }
@@ -1716,11 +1710,14 @@ select.form-input {
     padding: 24px 16px;
   }
 
-  img,
-  iframe {
-    max-width: 100%;
-    height: auto;
-  }
+  img{
+    max-width:100%;
+    height:auto;
+}
+
+iframe{
+    max-width:100%;
+}
 
 
 /* ===== Mobile Improvements ===== */
