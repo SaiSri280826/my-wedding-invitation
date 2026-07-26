@@ -130,6 +130,7 @@ section {
     width: 100%;
     max-width: var(--max-width);
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* Glassmorphism Card Base — now a soft ivory/lilac card, not dark glass */
@@ -1683,5 +1684,38 @@ select.form-input {
     .site-footer{
         padding-bottom: 120px;
     }
+
+}
+@media (max-width: 768px) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .invitation-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 24px 16px;
+  }
+
+  img,
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
 
 }
