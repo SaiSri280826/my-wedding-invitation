@@ -238,6 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Fetch inputs
             const guestName = document.getElementById('guest-name').value;
+            console.log(document.querySelector('input[name="attendance-status"]:checked'));
             const attendanceStatus = document.querySelector('input[name="attendance-status"]:checked').value;
             const guestCount = document.getElementById('guest-count').value;
             const guestMessage = document.getElementById('guest-message').value;
