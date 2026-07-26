@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. Follow the Google Apps Script instructions.
     // 2. Paste your deployed Web App URL below between the quotes!
     // If left blank (""), the form runs in a local test/simulation mode.
-    const RSVP_API_URL = "https://script.google.com/macros/s/AKfycbzCg3JD_mdRF9EqjqbeOH1K1__1E1PxhYwN4JYCRxKQr92_mCkZ8EaaQONdYP5-SvNV/exec";
+    const RSVP_API_URL = "https://script.google.com/macros/s/AKfycbxtxvA-1nN4XfGc2GCV7M2VsClhlDPClpCYCnv3UtPC0RWT9xytxz4fjQUKhvrsqJI/exec";
 
     // --- 1. Countdown Timer (Subhamuhurtham) ---
     // Target Date: August 28, 2026, 11:31:00 PM (Auspicious Sumuhurtham)
