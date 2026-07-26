@@ -465,8 +465,8 @@ display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:center;
-gap:1.2rem;
-margin:3.5rem 0 5rem;
+gap:0.4rem;
+margin:2rem 0 2.5rem;
 
 }
 
@@ -1548,9 +1548,10 @@ select.form-input {
         margin: 1.5rem 0;
     }
     
-    .couple-name {
-    font-size: 3rem;
-    line-height: 1.15;
+   .couple-name {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    white-space: nowrap;
 }
     
     .ampersand {
