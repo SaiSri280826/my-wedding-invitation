@@ -1623,10 +1623,10 @@ select.form-input {
     }
     
     .music-player-widget {
-        bottom: 1.5rem;
-        right: 1.5rem;
-        padding: 0.5rem 0.5rem 0.5rem 1rem;
-    }
+    bottom: 20px;
+    right: 20px;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
     
     .music-player-text {
         font-size: 0.7rem;
@@ -1674,10 +1674,6 @@ select.form-input {
 }
 /* Mobile footer spacing */
 @media (max-width: 768px) {
-
-    .music-player-widget{
-        bottom: 90px;
-    }
 
     .site-footer{
         padding-bottom: 120px;
