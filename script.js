@@ -260,21 +260,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 submitBtn.disabled = true;
 
                 // POST fetch request to Google Apps Script / Formspree
-                fetch(RSVP_API_URL, {
-                    method: 'POST',
-                    mode: 'no-cors', // Direct bypass for Google Web App CORS policies
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(payload)
-                })
-                    .then(() => {
-                        showSuccessState();
-                    })
-                    .catch(err => {
-                        console.error("Submission failed, fallback to local success state:", err);
-                        showSuccessState();
-                    });
+              fetch(RSVP_API_URL, {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(payload)
+})
+.then(response => response.json())
+.then(data => {
+    console.log(data);
+    showSuccessState();
+})
+.catch(err => {
+    console.error(err);
+    alert("RSVP submission failed. Check console.");
+});
             } else {
                 // Fallback simulation mode
                 showSuccessState();
