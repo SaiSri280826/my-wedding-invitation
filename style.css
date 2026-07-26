@@ -1719,3 +1719,28 @@ select.form-input {
   }
 
 }
+/* ===== Mobile Improvements ===== */
+@media (max-width:768px){
+
+    .invitation-card{
+        padding:2rem 1.25rem;
+    }
+
+    .main-title{
+        font-size:2.3rem;
+        letter-spacing:2px;
+    }
+
+    .couple-name{
+        font-size:3.5rem;
+    }
+
+    .ganesha-img{
+        width:220px;
+    }
+
+    .story-img-wrapper{
+        outline-offset:3px;
+    }
+
+}
