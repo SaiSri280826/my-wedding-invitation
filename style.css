@@ -568,7 +568,7 @@ margin:.8rem 0;
    ========================================================================== */
 #countdown-section {
     min-height: auto;
-    padding: 4rem 2rem;
+    padding: 2.5rem 2rem;
 }
 
 .countdown-wrapper {
@@ -1503,7 +1503,7 @@ select.form-input {
 /* Mobile Screens (768px and down) */
 @media (max-width: 768px) {
     section {
-        padding: 4rem 1.5rem;
+        padding: 2.5rem 1.5rem;
     }
     
     .glass-card {
